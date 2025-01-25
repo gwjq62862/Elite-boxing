@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Boxing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(180deg, #111, #000);
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #4CAF50;
+            animation: bounce 2s infinite alternate;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes bounce {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-20px);
+            }
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+            animation: slideIn 1.5s ease-in-out;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column; /* Row to Column */
+            align-items: center; /* Center Align */
+            text-align: center; /* Text Center */
+            margin: 20px 0;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 2px solid #4CAF50;
+            animation: fadeIn 2s ease-in-out;
+            margin-bottom: 20px; /* Add spacing between image and text */
+        }
+
+        .profile-info {
+            margin: 0;
+        }
+
+        .skills, .languages, .about {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            animation: slideUp 2s ease-out;
+        }
+
+        .skills ul, .languages ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li, .languages li {
+            margin: 5px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: white;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #fff;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Naung Htoo Oo</h1>
+        <p>Boxing coach</p>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <a href="https://ibb.co/FsFgt4L">
+                <img src="https://i.ibb.co/1sk8xGt/FB-IMG-1702296864772.jpg" alt="Profile Image">
+            </a>
+            <div class="profile-info">
+                <h2>About Naung Htoo Oo</h2>
+                <p>ဆရာနောင်ထူးဦး ဟာဆိုရင်၂၀၁၃ ခုနှစ် မှာ တရန်ဒီရာဂျက် အင်ဒိုနီးရှား ကစ်ဘောက်စင် မှာ လက်ရွေးစင်ဖြစ်ခဲ့ပြီး Camp ဝင်နေချိန်အတွင်းမှာ Boxing ပညာရပ်ကို လေ့လာခဲ့ပါတယ်။
+
+လက်ရွေးစင် အဖြစ်နှင့် Camp Training အချိန်မှာ ခါးဒဏ်ရာရရှိမှုကြောင့် ကစားသမားဘဝမှ အပြီးတိုင်အနားယူခဲ့ပါတယ်။
+
+အဒီနောက် မှာ ကိုယ်ဝါသနာပါရာကို ဆက်လျှောက်ဖို့အတွက် U.K နိုင်ငံ Manchester City တိုင်းဒေသကြီး ချံပီယံ Raz ထံမှာ Boxing ပညာကို (2) နှစ်တိုင်လေ့လာသင်ယူခဲ့ပါတယ်။
+
+2018 မှာ NESTA and UFC တို့ကို ပူးပေါင်ဖွင့်လှစ်သော MMA Conditioning Coach လိုက်စင်ကို မြန်မာနိုင်ငံမှာ ပထမဆုံး ရရှိခဲ့သူဖြစ်သည်။
+
+ဒီအပြင် ဆရာ နိုင်ဦး ၏ MFTA မှ ဖွင့်လှစ်သင်ကြားပေးနေသော် CPT/FNS/Perform Max တို့ကို တတ်ယောက်ခဲ့သော Certified Coa Coach တစ်ယောက်လည်းဖြစ်ပါတယ်။</p>
+            </div>
+        </div>
+        <div class=skills>
+            <h2>Martial arts</h2>
+            <ul>
+                <li>Boxing</li>
+                <li>Kick Boxing</li>
+                <li>Kung fu</li>
+                <li>Muay thai</li>
+            </ul>
+        </div>
+        <div class="languages">
+            <h2>Cretificate</h2>
+            <ul>
+                <li>CPT</li>
+                <li>FNS</li>
+                <li>Perform Max</li>
+                
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>ဆရာနောင်ထူးဉီးကိုဆက်သွယ်ရန်</p>
+        <p><a href="https://t.me/Ebtnto">Telegram</a> | <a href="https://www.facebook.com/share/14r4bv3o9Gb">Facebook</a></p>
+    </footer>
+</body>
+</html>
